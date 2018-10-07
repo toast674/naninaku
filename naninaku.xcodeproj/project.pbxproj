@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		451ED0292111E49500B47D95 /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451ED0282111E49500B47D95 /* CreditViewController.swift */; };
+		4520132721172143006FA36B /* SyokyuCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4520132621172143006FA36B /* SyokyuCustomView.xib */; };
+		45212F2F211B1BEB002BA2CF /* SyokyuCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45212F2E211B1BEB002BA2CF /* SyokyuCustomView.swift */; };
+		4521E3CE20FC98FE002BEC76 /* SyokyuViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4521E3CD20FC98FE002BEC76 /* SyokyuViewController3.swift */; };
+		452688D020FB95580081F848 /* SyokyuViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452688CF20FB95570081F848 /* SyokyuViewController2.swift */; };
+		459691C02104B44F00581DCB /* RuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459691BF2104B44F00581DCB /* RuleViewController.swift */; };
 		459A526920EDF79B000E9668 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459A526820EDF79B000E9668 /* AppDelegate.swift */; };
 		459A526B20EDF79B000E9668 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459A526A20EDF79B000E9668 /* ViewController.swift */; };
 		459A526E20EDF79B000E9668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459A526C20EDF79B000E9668 /* Main.storyboard */; };
 		459A527020EDF79E000E9668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459A526F20EDF79E000E9668 /* Assets.xcassets */; };
 		459A527320EDF79E000E9668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459A527120EDF79E000E9668 /* LaunchScreen.storyboard */; };
+		459A527C20EE0BB1000E9668 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459A527B20EE0BB1000E9668 /* WebKit.framework */; };
+		459A527E20EE0BF3000E9668 /* SyokyuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459A527D20EE0BF3000E9668 /* SyokyuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		451ED0282111E49500B47D95 /* CreditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
+		4520132621172143006FA36B /* SyokyuCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SyokyuCustomView.xib; sourceTree = "<group>"; };
+		45212F2E211B1BEB002BA2CF /* SyokyuCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyokyuCustomView.swift; sourceTree = "<group>"; };
+		4521E3CD20FC98FE002BEC76 /* SyokyuViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyokyuViewController3.swift; sourceTree = "<group>"; };
+		452688CF20FB95570081F848 /* SyokyuViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyokyuViewController2.swift; sourceTree = "<group>"; };
+		459691BF2104B44F00581DCB /* RuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleViewController.swift; sourceTree = "<group>"; };
 		459A526520EDF79B000E9668 /* naninaku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = naninaku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		459A526820EDF79B000E9668 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		459A526A20EDF79B000E9668 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,8 @@
 		459A526F20EDF79E000E9668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		459A527220EDF79E000E9668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		459A527420EDF79E000E9668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		459A527B20EE0BB1000E9668 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		459A527D20EE0BF3000E9668 /* SyokyuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyokyuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				459A527C20EE0BB1000E9668 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,7 @@
 			children = (
 				459A526720EDF79B000E9668 /* naninaku */,
 				459A526620EDF79B000E9668 /* Products */,
+				459A527A20EE0BB0000E9668 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +72,29 @@
 		459A526720EDF79B000E9668 /* naninaku */ = {
 			isa = PBXGroup;
 			children = (
+				459A527D20EE0BF3000E9668 /* SyokyuViewController.swift */,
+				452688CF20FB95570081F848 /* SyokyuViewController2.swift */,
 				459A526820EDF79B000E9668 /* AppDelegate.swift */,
 				459A526A20EDF79B000E9668 /* ViewController.swift */,
+				4520132621172143006FA36B /* SyokyuCustomView.xib */,
 				459A526C20EDF79B000E9668 /* Main.storyboard */,
 				459A526F20EDF79E000E9668 /* Assets.xcassets */,
 				459A527120EDF79E000E9668 /* LaunchScreen.storyboard */,
 				459A527420EDF79E000E9668 /* Info.plist */,
+				4521E3CD20FC98FE002BEC76 /* SyokyuViewController3.swift */,
+				459691BF2104B44F00581DCB /* RuleViewController.swift */,
+				451ED0282111E49500B47D95 /* CreditViewController.swift */,
+				45212F2E211B1BEB002BA2CF /* SyokyuCustomView.swift */,
 			);
 			path = naninaku;
+			sourceTree = "<group>";
+		};
+		459A527A20EE0BB0000E9668 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				459A527B20EE0BB1000E9668 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +157,7 @@
 			files = (
 				459A527320EDF79E000E9668 /* LaunchScreen.storyboard in Resources */,
 				459A527020EDF79E000E9668 /* Assets.xcassets in Resources */,
+				4520132721172143006FA36B /* SyokyuCustomView.xib in Resources */,
 				459A526E20EDF79B000E9668 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +170,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				459A526B20EDF79B000E9668 /* ViewController.swift in Sources */,
+				4521E3CE20FC98FE002BEC76 /* SyokyuViewController3.swift in Sources */,
 				459A526920EDF79B000E9668 /* AppDelegate.swift in Sources */,
+				45212F2F211B1BEB002BA2CF /* SyokyuCustomView.swift in Sources */,
+				459A527E20EE0BF3000E9668 /* SyokyuViewController.swift in Sources */,
+				459691C02104B44F00581DCB /* RuleViewController.swift in Sources */,
+				452688D020FB95580081F848 /* SyokyuViewController2.swift in Sources */,
+				451ED0292111E49500B47D95 /* CreditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

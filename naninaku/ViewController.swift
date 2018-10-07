@@ -20,6 +20,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet weak var gameTitle: UILabel!
+    @IBAction func syokyu(_ sender: Any) {
+    }
 
+    @IBAction func rule(_ sender: Any) {
+    }
+    
+    @IBAction func credit(_ sender: Any) {
+    }
+    
 }
 
